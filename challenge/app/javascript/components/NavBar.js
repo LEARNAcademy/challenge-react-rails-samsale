@@ -6,17 +6,17 @@ class NavBar extends React.Component {
     return (
       <div>
       <Nav>
-  <NavItem>
-    <NavLink href="/">Home</NavLink>
-  </NavItem>
-  <NavItem>
-    <NavLink href="/about">About Us</NavLink>
-  </NavItem>
-  <NavItem>
-    <NavLink href="/contact">Contact Us</NavLink>
-  </NavItem>
-</Nav>
-<hr></hr>
+        <NavItem>
+          <NavLink href="/">Home</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/about">About Us</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/contact">Contact Us</NavLink>
+        </NavItem>
+      </Nav>
+    <hr></hr>
 </div>
     );
   }

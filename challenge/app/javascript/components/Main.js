@@ -11,15 +11,15 @@ class Main extends React.Component {
   render () {
     return (
       <Router>
-      <div>
-      <h1>Challenge Test</h1>
-      <hr></hr>
-      <NavBar/>
-      <Route path="/" exact component={Home} />
-      <Route path="/about" component={AboutUs} />
-      <Route path="/contact" component={ContactUs} />
-      </div>
-      </Router>
+        <div>
+          <h1>Challenge Test</h1>
+            <hr></hr>
+              <NavBar/>
+                <Route path="/" exact component={Home} />
+                <Route path="/about" component={AboutUs} />
+                <Route path="/contact" component={ContactUs} />
+              </div>
+            </Router>
     );
   }
 }
